@@ -36,7 +36,7 @@ resource "aws_eip" "web_ip" {
   instance = aws_instance.web_server.id
   vpc = true
   tags = {
-    Name = "Web Server IP
+    Name = "Web Server IP"
   }
 }
 
